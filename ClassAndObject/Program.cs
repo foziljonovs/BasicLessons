@@ -1,30 +1,52 @@
-﻿//modifikator - (public, private, internal, protected)
+﻿using System.Threading.Channels;
 
-public class User
+class Car
 {
-    //user properties
-    public string FullName { get; set; }
-    public string Email { private get; set; }
-    private string Password { get; set; }
+    public string Brand { get; private set; }
+    public string Name { get; private set; }
+    public int Year { get; private set; }
+    public string Color { get; private set; }
 
-    public string getEmail()
-        => Email;
+    //default constructor
+    public Car()
+    {
+        this.Brand = "Toyota";
+        this.Name = "Corolla";
+        this.Year = 2020;
+        this.Color = "Red";
+    }
 
-    public void setPassword(string password)
-        => Password = password;
+    public Car(string brand, string name, int year, string color) 
+    {
+        this.Brand = brand;
+        this.Name = name;
+        this.Year = year;
+        this.Color = color;
+    }
 
-    public string getPassword()
-        => Password;
+    public Car(string brand, string name)
+    {
+        this.Brand = brand;
+        this.Name = name;
+        this.Year = 2020;
+        this.Color = "Red";
+    }
+
+    public void printInfo()
+        => Console.WriteLine($"Brand: {this.Brand}, Name: {this.Name}, Year: {this.Year}, Color: {this.Color}");
 }
 
 class Program
 {
     static void Main(string[] args)
     {
-        User user = new User();
-        user.FullName = "foziljonovs";
-        user.Email = "abdulvosidfoziljonov2@gmail.com";
-        user.setPassword("1234");
-        Console.WriteLine($"username - {user.FullName}, email - {user.getEmail()}, password - {user.getPassword()}");
+        Car car = new Car();
+        car.printInfo();
+
+        Car car2 = new Car("Honda", "Civic", 2021, "Blue");
+        car2.printInfo();
+
+        Car car3 = new Car("Ford", "Mustang");
+        car3.printInfo();
     }
 }
