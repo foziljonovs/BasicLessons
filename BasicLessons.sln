@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{B10C9435-A782-4A6F-A60F-1519861B386C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeration", "Enumeration\Enumeration.csproj", "{F102423E-D04A-44E9-8902-70EFB57F38BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{B10C9435-A782-4A6F-A60F-1519861B386C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B10C9435-A782-4A6F-A60F-1519861B386C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B10C9435-A782-4A6F-A60F-1519861B386C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F102423E-D04A-44E9-8902-70EFB57F38BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F102423E-D04A-44E9-8902-70EFB57F38BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F102423E-D04A-44E9-8902-70EFB57F38BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F102423E-D04A-44E9-8902-70EFB57F38BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
