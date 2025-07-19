@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeration", "Enumeration\Enumeration.csproj", "{F102423E-D04A-44E9-8902-70EFB57F38BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{5C763804-FFDE-4288-B6CC-7DBB8A9D1AD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{F102423E-D04A-44E9-8902-70EFB57F38BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F102423E-D04A-44E9-8902-70EFB57F38BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F102423E-D04A-44E9-8902-70EFB57F38BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C763804-FFDE-4288-B6CC-7DBB8A9D1AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C763804-FFDE-4288-B6CC-7DBB8A9D1AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C763804-FFDE-4288-B6CC-7DBB8A9D1AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C763804-FFDE-4288-B6CC-7DBB8A9D1AD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
